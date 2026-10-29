@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muller_TechPro Service</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f4f6fb;--card:#fff;--text:#10233f;--muted:#5a6a85;--ac:#1f6feb;--act:#fff;--line:#dde3ee;--ok:#1a8f4c;--ko:#c8372d;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1628;--card:#10233f;--text:#eef3fb;--muted:#9fb0cc;--ac:#4d94ff;--act:#08121f;--line:#223a60;--ok:#4cc98a;--ko:#ff7b72;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1628;--card:#10233f;--text:#eef3fb;--muted:#9fb0cc;--ac:#4d94ff;--act:#08121f;--line:#223a60;--ok:#4cc98a;--ko:#ff7b72;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
+header{padding:14px 16px 4px;max-width:600px;margin:0 auto}
+header b{font-size:18px}header small{display:block;color:var(--muted)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);display:flex;gap:6px;overflow-x:auto;padding:8px 16px;max-width:600px;margin:0 auto;z-index:5}
+nav a{flex:0 0 auto;padding:8px 12px;border-radius:20px;border:1px solid var(--line);color:var(--text);text-decoration:none;font-size:14px;background:var(--card)}
+nav a.on{background:var(--ac);color:var(--act);border-color:var(--ac)}
+main{max-width:600px;margin:0 auto;padding:8px 16px 40px}
+.v{display:none}.v.on{display:block}
+h2{font-size:19px;margin:14px 0 8px}h3{font-size:15px;margin:14px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.c{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:8px 0}
+.c p{margin:6px 0}.m{color:var(--muted);font-size:13px}
+ul{margin:6px 0;padding-left:20px}
+.b,button{display:inline-block;background:var(--ac);color:var(--act);border:0;border-radius:10px;padding:10px 14px;font:inherit;font-weight:700;text-decoration:none;cursor:pointer;margin:4px 4px 4px 0}
+.b.g,button.g{background:transparent;color:var(--text);border:1px solid var(--line)}
+.chips span{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:3px 10px;margin:3px 3px 0 0;font-size:13px}
+label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+input,select,textarea{width:100%;padding:11px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit}
+details{border-top:1px solid var(--line);padding:8px 0}summary{font-weight:700;cursor:pointer}
+.opt{display:block;width:100%;text-align:left;background:var(--bg);color:var(--text);border:1px solid var(--line);font-weight:400}
+.opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,var(--bg))}
+.opt.ko{border-color:var(--ko);background:color-mix(in srgb,var(--ko) 18%,var(--bg))}
+.ok-t{color:var(--ok)}.ko-t{color:var(--ko)}
+.ban{position:sticky;top:calc(env(safe-area-inset-top,0px) + 52px);background:#f0b429;color:#1a1200;padding:8px 12px;border-radius:10px;font-weight:700;margin:6px 0;z-index:4}
+.tag{font-size:12px;border:1px solid var(--line);border-radius:10px;padding:1px 8px;color:var(--muted)}
+#att{border:3px double #10233f;padding:20px;text-align:center;background:#fff;color:#111;border-radius:6px}
+#att.col{border-color:#1f6feb;background:#f3f8ff}#att h4{margin:0 0 8px;font-size:18px}
+@media print{body.pa *{visibility:hidden}body.pa #att,body.pa #att *{visibility:visible}body.pa #att{position:absolute;left:0;top:0;width:100%}}
+</style>
+</head>
+<body>
+<header><b>Muller_TechPro Service</b><small>Entreprise numérique et éducative</small></header>
+<nav id="nav"><a href="#accueil">Accueil</a><a href="#catalogue">Catalogue</a><a href="#pdf">PDF</a><a href="#astuces">Astuces</a><a href="#maths">Maths</a><a href="#admin">Admin</a></nav>
+<main>
+
+<section class="v" id="v-accueil">
+<div class="c"><h2 style="margin-top:0">Bienvenue chez Muller_TechPro Service !</h2>
+<p><b>Informaticien et enseignant de mathématiques</b></p>
+<p class="m">Coach en développement personnel · Créateur de contenu · Technicien IT</p>
+<p>Je propose des services informatiques, la création de sites web, des formations, des cours de mathématiques, des documents pédagogiques et des contenus de motivation.</p>
+<p>Mon objectif : rendre l’informatique et le savoir accessibles à tous, tout en encourageant chacun à apprendre, à progresser et à développer son potentiel.</p>
+<a class="b" href="#catalogue">Voir le catalogue</a><a class="b g" id="wa0" target="_blank" rel="noopener">WhatsApp</a><a class="b g" href="https://glittering-pastelito-e70495.netlify.app" target="_blank" rel="noopener">Mon site</a></div>
+<h3>Mission</h3><div class="c">Faciliter l’accès aux outils numériques, transmettre des connaissances et encourager le développement des compétences grâce à des solutions utiles, accessibles et adaptées aux besoins de chacun.</div>
+<h3>Compétences</h3><div class="c chips"><span>Installation de logiciels</span><span>Dépannage</span><span>Assistance aux utilisateurs</span><span>Création de sites web</span><span>Assistance à distance</span><span>Maintenance</span><span>Installation de Windows</span></div>
+<h3>Services</h3><div class="c">
+<details><summary>Informatique</summary><ul><li>Dépannage et maintenance</li><li>Installation de logiciels et de Windows</li><li>Assistance aux utilisateurs et à distance</li><li>Interventions sur place</li></ul></details>
+<details><summary>Création numérique</summary><ul><li>Création de sites web</li><li>Amélioration de sites existants</li><li>Accompagnement numérique</li><li>Contenus numériques pour les entreprises</li></ul></details>
+<details><summary>Formation et éducation</summary><ul><li>Formation en informatique</li><li>Cours particuliers de mathématiques</li><li>Supports pédagogiques et fascicules PDF</li><li>Tutoriels vidéo</li></ul></details>
+<details><summary>Développement personnel</summary><ul><li>Conseils et contenus de motivation</li><li>Ressources pour apprendre et progresser</li><li>E-books</li></ul></details></div>
+<h3>À qui je m’adresse</h3><div class="c chips"><span>Particuliers</span><span>Élèves et étudiants</span><span>Entreprises</span><span>Enseignants</span><span>Écoles et centres de formation</span><span>Créateurs de contenu</span><span>Débutants</span><span>Motivation et développement personnel</span></div>
+<p class="m">WhatsApp : +236 72 47 71 66 · mulerebassa9@gmail.com</p>
+</section>
+
+<section class="v" id="v-catalogue">
+<h2>Catalogue</h2>
+<div class="c"><b>1. Documents numériques</b><div class="chips"><span>Fascicules PDF</span><span>E-books</span><span>Modèles de documents</span></div><button class="g" data-o="Documents numériques">Commander</button></div>
+<div class="c"><b>2. Mathématiques et formation</b><div class="chips"><span>Cours</span><span>Exercices corrigés</span><span>Supports pédagogiques</span><span>Tutoriels et formations</span></div><button class="g" data-o="Mathématiques et formation">Commander</button></div>
+<div class="c"><b>3. Informatique et guides pratiques</b><div class="chips"><span>Guides informatiques</span><span>Tutoriels vidéo</span><span>Guides logiciels et Windows</span><span>Formations numériques</span></div><button class="g" data-o="Informatique et guides pratiques">Commander</button></div>
+<div class="c"><b>4. Services et commandes personnalisées</b><div class="chips"><span>Création de sites web</span><span>Assistance informatique</span><span>Prestations personnalisées</span></div><button class="g" data-o="Services et commandes personnalisées">Commander</button></div>
+<p class="m">Les prix sont communiqués sur demande. Livraison numérique, ou remise en personne si nécessaire.</p>
+<h2 id="oh">Formulaire de commande</h2>
+<div class="c"><label>Nom du client</label><input id="o-n" autocomplete="name">
+<label>Numéro WhatsApp ou e-mail</label><input id="o-c">
+<label>Produit ou service</label><input id="o-p">
+<label>Catégorie</label><select id="o-k"><option>Documents numériques</option><option>Mathématiques et formation</option><option>Informatique et guides pratiques</option><option>Services et commandes personnalisées</option></select>
+<label>Détails de la demande</label><textarea id="o-d" rows="3"></textarea>
+<label>Livraison souhaitée</label><select id="o-l"><option>Numérique</option><option>En personne</option></select>
+<button id="o-w">Envoyer par WhatsApp</button><button class="g" id="o-e">Envoyer par e-mail</button></div>
+</section>
+
+<section class="v" id="v-pdf">
+<h2>Bibliothèque PDF</h2>
+<div class="c"><input id="p-q" placeholder="Rechercher par titre">
+<label>Catégorie</label><select id="p-k"><option value="">Toutes</option><option>Mathématiques</option><option>Informatique</option><option>Tutoriels et formations</option><option>Motivation et développement personnel</option><option>Modèles de documents</option><option>Entreprise et services numériques</option></select>
+<label>Statut</label><select id="p-s"><option value="">Gratuit et payant</option><option>Gratuit</option><option>Payant / sur commande</option></select>
+<label>Tri</label><select id="p-t"><option value="t">Par titre</option><option value="d">Par date (récent d’abord)</option></select></div>
+<div id="p-l"></div>
+<p class="m">Documents payants : demande, prix communiqué, vérification manuelle du paiement, envoi après confirmation.</p>
+</section>
+
+<section class="v" id="v-astuces">
+<h2>Astuces et tutoriels</h2>
+<div class="c"><input id="a-q" placeholder="Rechercher par mots-clés">
+<label>Catégorie</label><select id="a-k"><option value="">Toutes</option><option>Astuces informatiques</option><option>Astuces de mathématiques</option><option>Motivation et développement personnel</option><option>Tutoriels numériques</option></select>
+<label>Afficher</label><select id="a-t"><option value="d">Contenus récents</option><option value="p">Contenus populaires</option></select></div>
+<div id="a-l"></div>
+</section>
+
+<section class="v" id="v-maths">
+<h2>Mathématiques</h2>
+<div id="m-nav"></div>
+<div id="m-body"></div>
+</section>
+
+<section class="v" id="v-admin">
+<h2>Espace administrateur</h2>
+<div class="c"><b>Non connecté : accès verrouillé</b>
+<p>Cet espace doit être protégé par e-mail, mot de passe et vérification renforcée. Cela exige un service de connexion et de stockage sécurisé, qui n’existe pas encore. Aucun faux formulaire de connexion n’est affiché ici, pour ne pas donner une fausse impression de sécurité.</p>
+<p class="m">Administrateur prévu : mulerebassa9@gmail.com. Ne communique jamais le mot de passe dans une conversation.</p></div>
+<h3>Fonctions prévues</h3><div class="c"><ul>
+<li>Importer, éditer, publier, masquer des PDF et des contenus (brouillon, publié, masqué)</li>
+<li>Gérer cours, exercices, corrigés, examens, utilisateurs, paramètres</li>
+<li>Générer des sujets avec l’IA, toujours validés par un humain avant publication</li>
+<li>Barèmes modifiables, corrections concises ou détaillées</li>
+<li>Historique, versions, sauvegardes automatiques et manuelles</li>
+<li>Rôles : principal, enseignant, correcteur, gestionnaire de documents</li>
+<li>Alertes de sécurité par e-mail, journaux conservés 12 mois sans mots de passe</li></ul></div>
+</section>
+</main>
+<script>
+var WA='23672477166',MAIL='mulerebassa9@gmail.com';
+var $=function(i){return document.getElementById(i)};
+function wa(t){return 'https://wa.me/'+WA+'?text='+encodeURIComponent(t)}
+$('wa0').href=wa('Bonjour Muller_TechPro Service, je souhaite des informations.');
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function ld(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
+/* routing */
+var V=['accueil','catalogue','pdf','astuces','maths','admin'];
+function route(){var h=(location.hash||'#accueil').slice(1);if(V.indexOf(h)<0)h='accueil';
+V.forEach(function(v){$('v-'+v).classList.toggle('on',v===h)});
+[].forEach.call($('nav').children,function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+h)});window.scrollTo(0,0)}
+window.addEventListener('hashchange',route);route();
+/* catalogue */
+[].forEach.call(document.querySelectorAll('[data-o]'),function(b){b.onclick=function(){$('o-k').value=b.dataset.o;$('oh').scrollIntoView()}});
+function ord(){return 'Bonjour Muller_TechPro Service,\nNom : '+$('o-n').value+'\nContact : '+$('o-c').value+'\nProduit/service : '+$('o-p').value+'\nCatégorie : '+$('o-k').value+'\nDétails : '+$('o-d').value+'\nLivraison : '+$('o-l').value}
+$('o-w').onclick=function(){window.open(wa(ord()),'_blank','noopener')};
+$('o-e').onclick=function(){location.href='mailto:'+MAIL+'?subject='+encodeURIComponent('Commande : '+$('o-p').value)+'&body='+encodeURIComponent(ord())};
+/* pdf */
+var P=[{t:'Guide informatique pour débutants',k:'Informatique',s:'Payant / sur commande',d:'2026-10-01',x:'Bases de l’ordinateur, fichiers, Internet, sécurité et exercices.',st:''},
+{t:'Les raccourcis clavier essentiels',k:'Informatique',s:'Payant / sur commande',d:'2026-10-15',x:'Les combinaisons de touches les plus utiles au quotidien.',st:'Bientôt disponible'},
+{t:'Protéger son ordinateur',k:'Informatique',s:'Payant / sur commande',d:'2026-10-20',x:'Habitudes essentielles pour réduire les risques et protéger ses fichiers.',st:'En préparation'}];
+function pdf(){var q=$('p-q').value.toLowerCase(),k=$('p-k').value,s=$('p-s').value;
+var r=P.filter(function(p){return p.t.toLowerCase().indexOf(q)>=0&&(!k||p.k===k)&&(!s||p.s===s)});
+r.sort($('p-t').value==='t'?function(a,b){return a.t.localeCompare(b.t)}:function(a,b){return b.d.localeCompare(a.d)});
+$('p-l').innerHTML=r.length?r.map(function(p){var rdy=!p.st;return '<div class="c"><b>'+p.t+'</b> <span class="tag">'+p.s+'</span>'+(p.st?' <span class="tag">'+p.st+'</span>':'')+'<p>'+p.x+'</p><p class="m">'+p.k+' · Muller_TechPro Service</p><a class="b" target="_blank" rel="noopener" href="'+wa((rdy?'Bonjour, je souhaite commander le document : ':'Bonjour, je souhaite être informé de la sortie de : ')+p.t)+'">'+(rdy?'Commander':'Être informé')+'</a></div>'}).join(''):'<p class="m">Aucun document trouvé.</p>'}
+['p-q','p-k','p-s','p-t'].forEach(function(i){$(i).oninput=pdf});pdf();
+/* astuces */
+var A=[{t:'Raccourcis clavier indispensables',k:'Astuces informatiques',d:'2026-10-25',v:42,x:'Ctrl+C copier, Ctrl+V coller, Ctrl+Z annuler, Ctrl+S enregistrer, Windows+D afficher le bureau.'},
+{t:'Sécurité numérique : les bons réflexes',k:'Astuces informatiques',d:'2026-10-22',v:58,x:'Ne partagez jamais un mot de passe ou un code de vérification, et sauvegardez vos fichiers importants à deux endroits.'},
+{t:'Calculer l’image d’un nombre',k:'Astuces de mathématiques',d:'2026-10-20',v:35,x:'Pour f(x) = 2x + 3, l’image de 4 s’obtient en remplaçant x par 4 : f(4) = 11.'},
+{t:'Trouver un antécédent',k:'Astuces de mathématiques',d:'2026-10-18',v:29,x:'Pour trouver l’antécédent de a, résolvez l’équation f(x) = a.'},
+{t:'Un pas à la fois',k:'Motivation et développement personnel',d:'2026-10-26',v:61,x:'Choisissez un objectif précis, pratiquez chaque jour, mesurez vos progrès. La régularité bat l’intensité.'},
+{t:'Créer un site web : les étapes',k:'Tutoriels numériques',d:'2026-10-12',v:47,x:'1) Définir l’objectif. 2) Préparer les contenus. 3) Construire les pages. 4) Publier. 5) Tester sur téléphone.'},
+{t:'Utiliser l’IA avec prudence',k:'Tutoriels numériques',d:'2026-10-10',v:33,x:'Une IA peut se tromper : relisez et vérifiez toujours un contenu avant de le publier.'}];
+function tips(){var q=$('a-q').value.toLowerCase(),k=$('a-k').value;
+var r=A.filter(function(a){return (a.t+' '+a.x).toLowerCase().indexOf(q)>=0&&(!k||a.k===k)});
+r.sort($('a-t').value==='p'?function(a,b){return b.v-a.v}:function(a,b){return b.d.localeCompare(a.d)});
+$('a-l').innerHTML=r.map(function(a,i){var u=location.href.split('#')[0]+'#astuces',m=a.t+' – Muller_TechPro Service';return '<div class="c"><b>'+a.t+'</b> <span class="tag">'+a.k+'</span><p>'+a.x+'</p><a class="b g" target="_blank" rel="noopener" href="'+wa(m+' '+u)+'">WhatsApp</a><a class="b g" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(u)+'">Facebook</a><button class="g" data-sh="'+i+'">Partager</button></div>'}).join('');
+[].forEach.call(document.querySelectorAll('[data-sh]'),function(b){b.onclick=function(){var a=r[b.dataset.sh];if(navigator.share)navigator.share({title:a.t,text:a.x}).catch(function(){})}})}
+['a-q','a-k','a-t'].forEach(function(i){$(i).oninput=tips});tips();
+/* maths */
+var Q=[{n:'f(x) = 2x + 3 : quelle est l’image de 4 ?',o:['8','11','14','5'],a:1,p:3,l:'Facile',s:'Image d’un nombre',h:'Remplacez x par 4 dans la formule.',e:'f(4) = 2×4 + 3 = 11.',x:'Même méthode pour f(x) = 3x − 1 en x = 2.'},
+{n:'f(x) = x − 5 : quel est l’antécédent de 7 ?',o:['2','12','−12','35'],a:1,p:3,l:'Facile',s:'Antécédent',h:'Résolvez f(x) = 7.',e:'x − 5 = 7 donc x = 12.',x:'Antécédent de 4 pour f(x) = x + 6 : x = −2.'},
+{n:'Domaine de définition de f(x) = 1/(x − 2) ?',o:['ℝ tout entier','ℝ privé de 2','ℝ privé de −2','] 2 ; +∞ ['],a:1,p:4,l:'Moyen',s:'Domaine de définition',h:'On ne peut pas diviser par zéro : quand x − 2 vaut-il 0 ?',e:'x − 2 = 0 pour x = 2, donc le domaine est ℝ \\ {2}.',x:'Pour f(x) = 1/(x + 1), le domaine est ℝ \\ {−1}.'},
+{n:'f(x) = x² − 1 : quelle est l’image de −3 ?',o:['8','−10','10','2'],a:0,p:4,l:'Moyen',s:'Image d’un nombre',h:'Attention : (−3)² = 9.',e:'f(−3) = (−3)² − 1 = 9 − 1 = 8.',x:'Pour f(x) = x² + 2 en x = −2 : 6.'},
+{n:'Sur un graphique, « f(2) = 5 » signifie :',o:['le point (2 ; 5) est sur la courbe','le point (5 ; 2) est sur la courbe','2 est l’image de 5','f vaut 2 quand x = 5'],a:0,p:3,l:'Difficile',s:'Lecture de graphiques',h:'Dans un point (x ; y), x est l’abscisse et y l’image.',e:'f(2) = 5 : l’abscisse est 2 et l’ordonnée est 5, donc le point (2 ; 5).',x:'f(−1) = 3 donne le point (−1 ; 3).'},
+{n:'Domaine de définition de f(x) = √(x − 3) ?',o:['] −∞ ; 3 ]','[ 3 ; +∞ [','] 3 ; +∞ [','ℝ tout entier'],a:1,p:3,l:'Difficile',s:'Domaine de définition',h:'Une racine carrée exige un nombre positif ou nul.',e:'x − 3 ≥ 0 donc x ≥ 3 : le domaine est [ 3 ; +∞ [.',x:'Pour √(x + 2), le domaine est [ −2 ; +∞ [.'}];
+function lab(n){return n<6?'Bases à renforcer':n<10?'En cours d’acquisition':n<12?'Passable':n<14?'Assez bien':n<16?'Bien':n<18?'Très bien':'Excellent'}
+var MT=['Cours','Exercices','Évaluation','PDF','Assistant','Examens'],mt=0;
+function mnav(){$('m-nav').innerHTML=MT.map(function(t,i){return '<button class="'+(i===mt?'':'g')+'" data-m="'+i+'">'+(i+1)+'. '+t+'</button>'}).join('');
+[].forEach.call($('m-nav').children,function(b){b.onclick=function(){mt=+b.dataset.m;mnav();mbody()}})}
+function mbody(){var b=$('m-body');
+if(mt===0)b.innerHTML='<div class="c"><span class="tag">Seconde</span><h2 style="margin-top:6px">Généralités sur les fonctions</h2><p class="m">Fonctions et analyse · Collège, lycée et supérieur seront ajoutés ensuite.</p>'+
+'<details open><summary>1. Notion de fonction</summary><p>Une fonction f associe à chaque nombre x un unique nombre noté f(x). Exemple : f(x) = 2x + 3.</p></details>'+
+'<details><summary>2. Domaine de définition</summary><p>C’est l’ensemble des valeurs de x pour lesquelles f(x) existe. Pour 1/(x − 2), on exclut x = 2.</p></details>'+
+'<details><summary>3. Image d’un nombre</summary><p>L’image de a est f(a). Pour f(x) = 2x + 3 : f(4) = 11.</p></details>'+
+'<details><summary>4. Antécédent d’un nombre</summary><p>Un antécédent de b est un x tel que f(x) = b. Pour f(x) = x − 5, l’antécédent de 7 est 12.</p></details>'+
+'<details><summary>5. Lecture de graphiques</summary><p>f(a) = b signifie que le point (a ; b) est sur la courbe : a se lit sur l’axe horizontal, b sur l’axe vertical.</p></details>'+
+'<details><summary>Fiche de révision</summary><ul><li>f(x) : le nombre associé à x par la fonction f.</li><li>Image de a : f(a), on remplace x par a.</li><li>Antécédent de b : on résout f(x) = b.</li><li>Domaine : on exclut les valeurs qui annulent un dénominateur ou rendent négatif ce qui est sous une racine.</li><li>Graphique : f(a) = b se lit par le point (a ; b).</li></ul></details>'+
+'<details><summary>Niveaux prévus</summary><p>Collège, lycée et enseignement supérieur, organisés par classe, chapitre et thème. Seule la Seconde est ouverte pour le moment. Le programme général est utilisé par défaut, sans affirmer de conformité officielle à un programme national.</p></details>'+
+'<p><button data-go="1">Passer aux exercices</button></p></div>';
+else if(mt===1)tr();
+else if(mt===2)ex();
+else if(mt===3)b.innerHTML='<div class="c"><p>Les cours en PDF se trouvent dans la bibliothèque.</p><a class="b" href="#pdf">Ouvrir la bibliothèque PDF</a></div>';
+else if(mt===4)b.innerHTML='<div class="c"><b>Assistant mathématique</b><p>L’aide fonctionne pour l’instant par indices guidés dans les exercices : indice, puis explication détaillée, puis exemple similaire. Le langage reste accessible et adapté à la Seconde. Elle est désactivée pendant l’évaluation chronométrée.</p><p class="m">Un assistant libre, capable de répondre à toute question, demande un service d’IA connecté : il n’est pas encore branché.</p><button data-go="1">Essayer l’aide dans les exercices</button></div>';
+else b.innerHTML='<div class="c"><b>Préparation aux examens</b><div class="chips"><span>BEPC</span><span>Baccalauréat</span><span>Examens universitaires</span></div><p>Deux modes : entraînement libre (correction après chaque question) et simulation chronométrée (correction à la fin).</p><button data-go="1">Entraînement libre</button><button class="g" data-go="2">Simulation de 45 minutes</button><p class="m">Pour l’instant, seuls des sujets d’entraînement originaux sur le premier chapitre de Seconde sont disponibles. Les sujets officiels vérifiés seront ajoutés après vérification.</p></div>';
+[].forEach.call(b.querySelectorAll('[data-go]'),function(x){x.onclick=function(){mt=+x.dataset.go;mnav();mbody()}})}
+/* entraînement */
+function tr(){var sc=0,dn=0,b=$('m-body');
+b.innerHTML='<p class="m">Entraînement libre : pas de limite de temps, correction immédiate, aide disponible.</p>'+Q.map(function(q,i){return '<div class="c" id="q'+i+'"><b>'+(i+1)+'. '+q.n+'</b> <span class="tag">'+q.l+'</span>'+q.o.map(function(o,j){return '<button class="opt" data-q="'+i+'" data-j="'+j+'">'+o+'</button>'}).join('')+'<div class="f"></div><button class="g" data-h="'+i+'">Besoin d’aide ?</button><div class="hh m"></div></div>'}).join('')+'<div class="c" id="sc"><b>Score : 0 / '+Q.length+'</b></div>'+RD();
+var lv={};
+[].forEach.call(b.querySelectorAll('[data-q]'),function(x){x.onclick=function(){var i=+x.dataset.q,j=+x.dataset.j,c=$('q'+i);if(c.dataset.d)return;c.dataset.d=1;dn++;var q=Q[i];
+[].forEach.call(c.querySelectorAll('.opt'),function(o,k){if(k===q.a)o.classList.add('ok');else if(k===j)o.classList.add('ko')});
+if(j===q.a)sc++;c.querySelector('.f').innerHTML='<p class="'+(j===q.a?'ok-t':'ko-t')+'">'+(j===q.a?'Correct.':'Incorrect.')+' '+q.e+'</p>';
+$('sc').innerHTML='<b>Score : '+sc+' / '+Q.length+'</b>'+(dn===Q.length?'<p>'+(sc>=5?'Très bien, continuez ! ':'Relisez le cours puis recommencez. ')+'</p>':'')}});
+[].forEach.call(b.querySelectorAll('[data-h]'),function(x){x.onclick=function(){var i=+x.dataset.h,q=Q[i],n=(lv[i]||0);lv[i]=n+1;var t=[q.h,'Explication détaillée : '+q.e,'Exemple similaire : '+q.x][Math.min(n,2)];x.nextSibling.innerHTML=(n?x.nextSibling.innerHTML+'<br>':'')+t;x.textContent=n>=2?'Aide terminée':'Un indice de plus'}})}
+function RD(){var R=[{t:'Réponse rédigée',n:'f(x) = 3x − 2. Calculez f(−1), puis déterminez l’antécédent de 10.',p:4,c:'f(−1) = −5 ; l’antécédent de 10 est 4.',d:'f(−1) = 3×(−1) − 2 = −5 (2 pts). 3x − 2 = 10 donc 3x = 12 donc x = 4 (2 pts).'},
+{t:'Problème',n:'Un taxi facture 500 FCFA de prise en charge plus 200 FCFA par kilomètre. Exprimez le prix f(x) pour x km, calculez le prix de 7 km, puis la distance pour 2 100 FCFA.',p:5,c:'f(x) = 200x + 500 ; f(7) = 1 900 FCFA ; distance : 8 km.',d:'Prix = 200x + 500 (1 pt). f(7) = 200×7 + 500 = 1 900 (2 pts). 200x + 500 = 2 100 donc 200x = 1 600 donc x = 8 (2 pts).'},
+{t:'Démonstration',n:'Montrez que 3 n’a pas d’image par f(x) = 1/(x − 3).',p:3,c:'Pour x = 3, le dénominateur vaut 0 : f(3) n’existe pas.',d:'x − 3 = 0 pour x = 3 (1 pt). Une division par 0 est impossible (1 pt). Donc 3 n’appartient pas au domaine ℝ \\ {3} et n’a pas d’image (1 pt).'}];
+return '<h3>Exercices rédigés</h3>'+R.map(function(r){return '<div class="c"><b>'+r.t+'</b> <span class="tag">'+r.p+' pts</span><p>'+r.n+'</p><textarea rows="3" placeholder="Rédigez ici, puis comparez avec la correction"></textarea><details><summary>Correction concise</summary><p>'+r.c+'</p></details><details><summary>Correction détaillée et barème</summary><p>'+r.d+'</p></details></div>'}).join('')}
+/* examen blanc */
+var S=null,tm=null,lastT=0,w10=0,w5=0;
+function ex(){var sv0=ld('mt_exam'),b=$('m-body');
+if(sv0&&!sv0.done){var gap=Date.now()-sv0.last;
+if(gap>1800000){S=sv0;fin('Le délai de reprise de 30 minutes est dépassé : l’examen est terminé automatiquement et les réponses récupérables sont corrigées.');return}
+S=sv0;S.last=Date.now();b.innerHTML='<div class="c ko-t"><b>Examen repris</b><p>Reprise possible sur le même appareil et le même navigateur uniquement (cela ne garantit pas l’identité de la personne). Le temps écoulé pendant l’interruption n’est pas compté.</p></div>';run();return}
+if(sv0&&sv0.done){S=sv0;fin('Dernière évaluation terminée.');return}
+b.innerHTML='<div class="c"><b>Évaluation : Généralités sur les fonctions</b><p>45 minutes, notée sur 20 : facile 6 points, moyen 8 points, difficile 6 points. L’aide est désactivée, la correction s’affiche à la fin.</p><p class="m">En cas d’interruption, tu as 30 minutes pour reprendre, sur le même appareil et le même navigateur. Sinon l’examen se termine automatiquement.</p><button id="go">Commencer</button></div>';
+$('go').onclick=function(){S={a:[],left:2700,last:Date.now(),done:false};sv('mt_exam',S);ex()}}
+function run(){var b=$('m-body');w10=S.left<=600?1:0;w5=S.left<=300?1:0;
+var h='<div id="bn"></div><div class="c" style="position:sticky;top:calc(env(safe-area-inset-top,0px) + 52px);z-index:3"><b>Temps restant : <span id="tt"></span></b></div>'+Q.map(function(q,i){return '<div class="c"><b>'+(i+1)+'. '+q.n+'</b> <span class="tag">'+q.p+' pts</span>'+q.o.map(function(o,j){return '<button class="opt'+(S.a[i]===j?' ok':'')+'" data-e="'+i+'" data-j="'+j+'">'+o+'</button>'}).join('')+'</div>'}).join('')+'<button id="fn">Terminer et corriger</button>';
+b.insertAdjacentHTML('beforeend',h);lastT=Date.now();clearInterval(tm);tm=setInterval(tick,1000);tick(true);
+[].forEach.call(b.querySelectorAll('[data-e]'),function(x){x.onclick=function(){var i=+x.dataset.e;S.a[i]=+x.dataset.j;sv('mt_exam',S);var c=x.parentNode;[].forEach.call(c.querySelectorAll('.opt'),function(o){o.classList.remove('ok')});x.classList.add('ok')}});
+$('fn').onclick=function(){fin('')}}
+function tick(f){var n=Date.now(),d=Math.min(n-lastT,2000)/1000;lastT=n;if(f!==true)S.left-=d;S.last=n;sv('mt_exam',S);
+if(S.left<=0){fin('Le temps est écoulé : l’examen est terminé.');return}
+var m=Math.floor(S.left/60),s=Math.floor(S.left%60);$('tt').textContent=m+' min '+(s<10?'0':'')+s+' s';
+if(S.left<=300&&!w5){w5=1;$('bn').innerHTML='<div class="ban">Il reste 5 minutes.</div>'}else if(S.left<=600&&!w10){w10=1;$('bn').innerHTML='<div class="ban">Il reste 10 minutes.</div>'}}
+function fin(msg){clearInterval(tm);S.done=true;sv('mt_exam',S);var sc=0,ok={},er={},b=$('m-body');
+Q.forEach(function(q,i){if(S.a[i]===q.a){sc+=q.p;ok[q.s]=1}else er[q.s]=1});
+var rem=Object.keys(er).filter(function(k){return !ok[k]||true});
+b.innerHTML=(msg?'<div class="c">'+msg+'</div>':'')+'<div class="c"><h2 style="margin-top:0">Score : '+sc+' / 20</h2><p><b>'+lab(sc)+'</b></p>'+
+'<p class="ok-t">Compétences maîtrisées : '+(Object.keys(ok).join(', ')||'aucune pour l’instant')+'</p><p class="ko-t">À corriger : '+(rem.join(', ')||'rien, bravo !')+'</p>'+
+'<p>Conseil : '+(sc>=16?'excellent travail, passez aux chapitres suivants.':sc>=10?'revoyez les notions ratées puis refaites l’entraînement libre.':'relisez le cours, puis refaites l’entraînement libre avec l’aide.')+'</p></div>'+
+'<h3>Correction détaillée</h3>'+Q.map(function(q,i){var g=S.a[i]===q.a;return '<div class="c"><b>'+(i+1)+'. '+q.n+'</b> <span class="tag">'+(g?q.p:0)+' / '+q.p+'</span><p class="'+(g?'ok-t':'ko-t')+'">'+(S.a[i]===undefined||S.a[i]===null?'Sans réponse. ':g?'Correct. ':'Ta réponse : '+q.o[S.a[i]]+'. ')+'Bonne réponse : '+q.o[q.a]+'.</p><p>'+q.e+'</p></div>'}).join('')+
+'<h3>Attestation de résultat (facultative)</h3><div class="c"><label>Nom de l’élève</label><input id="an"><button class="g" id="as1">Noir et blanc</button><button class="g" id="as2">Couleur</button><button id="ap">Imprimer</button>'+
+'<div id="att"><h4>Muller_TechPro Service</h4><p>Attestation de résultat à un examen blanc</p><p><b id="atn">…</b></p><p>Score : '+sc+' / 20 · '+lab(sc)+'</p><p>Date : '+new Date().toLocaleDateString('fr-FR')+'</p><p class="m" style="color:#555">Ce document n’est pas un diplôme officiel.</p><p style="margin-top:28px">Signature du responsable : ________________</p></div></div>'+
+'<button class="g" id="rs">Recommencer une évaluation</button>';
+$('an').oninput=function(){$('atn').textContent=this.value||'…'};$('as1').onclick=function(){$('att').className=''};$('as2').onclick=function(){$('att').className='col'};
+$('ap').onclick=function(){document.body.classList.add('pa');window.print();document.body.classList.remove('pa')};
+$('rs').onclick=function(){try{localStorage.removeItem('mt_exam')}catch(e){}S=null;ex()}}
+document.addEventListener('visibilitychange',function(){if(S&&!S.done&&document.visibilityState==='hidden'){S.last=Date.now();sv('mt_exam',S)}});
+mnav();mbody();
+</script>
+</body>
+</html>
